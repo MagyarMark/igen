@@ -3,22 +3,28 @@ import random
 import keyboard
 
 class valami:
-    def __init__(self,name,hp,dmg,luck,):
+    def __init__(self,name,hp,damage,):
         self.name = name
         self.hp = hp
-        self.dmg = dmg
-        self.luck = luck
+        self.damage = damage
 
-    def dobos(kocka):
-        szam = 0
-        kocka = [random.randint(1,6) for _ in range(1,6)]
-        return print(kocka)
+    def getHp(self):
+        return self.hp
+    
+    def getDamage(self):
+        return self.damage
+
+    def sebzodik(self, damage):
+        self.hp -= damage
+    def harcol(self, harcos):
+        self.sebzodik(harcos.getDamage())
+        harcos.sebzodik(self.getDamage())
+        if self.getHp()<1 or harcos.getHp()<1:
+         return True
+        return False
 
     def __repr__(self):
-        return f"<object.ember name:{self.name}>"
-
-    def kivagy(self):
-        print(f"{self.name} vagyok!")
+        return f'<object.harcos: {self.name} (HE:{self.getDamage()}, ÉE:{self.getHp()})>'
 
 
 print(f"                                            1.")
@@ -31,4 +37,24 @@ while True:
         print(f"                                             41.")
         print(f"Az alagút, bár folyamatosan jobbra-balra kanyarog, nagyjából mégis tartja az északi irányt, végül élesen oldalra kanyarodik, és ekkor majdnem belefutsz egy fekete köpenybe öltözött alakba. Tört tart a kezébe, az arcán ülő tekintet rettegésről árulkodik! Rájössz hogy nem te vagy az egyetlen, akit most próbára tesznek és hogy mindketten ugyanazon Szobor után kutattok. A fickó rád veti magát nyilvánvaló hogy mielőbb végezni akar veled. Harcolnod kell!")
         print(f"Tolvaj Ügyesség 7     Életerő 6")
+        print(f"élet:")
+        elet = (print(random.randint(2, 12)))
+        print(f"sebzes:")
+        sebzes = print(random.randint(2, 12))
+        h1 = valami(f"Martin", 12 , 12)
+        h2 = valami(f"Tolvaj",7,6)
+        kor = 1
+
+        while not h1.harcol(h2):
+            print(f"{kor}. kör")
+            print(h1)
+            print(h2)
+            kor += 1
+
+        if h1.getHp()<1 and h2.getHp()<1:
+            print("Mindketten vesztettek")
+        elif h1.getHp()<1:
+            print(f"Nyertes: {h2}")
+        else:
+            print(f"Nyertes: {h1}")
         break
