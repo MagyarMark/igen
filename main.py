@@ -12,7 +12,7 @@ class valami:
     def dobos(kocka):
         szam = 0
         kocka = [random.randint(1,6) for _ in range(1,6)]
-        print(kocka)
+        return print(kocka)
 
     def __repr__(self):
         return f"<object.ember name:{self.name}>"
@@ -22,7 +22,7 @@ class valami:
 
 
 print(f"                                            1.")
-print(f"Belöknek a lenti alagútba, és rád zárják az ajtót, kizárva ezzel a nyiláson át beszúrödö termeszetes világgosságotm, innentől kezdve kizárólag a falra rögzített fáklyáktól remélhetsz valamennyi fényt. Ahogy szemed hozzászokik a homályhoz, látod, hogy az alagút észak felé indul. Nagyot sóhajtasz a dolog igazságtalansága felett, majd elindulsz  abba az irányba. Lapozz a 41-re")
+print(f"Belöknek a lenti alagútba, és rád zárják az ajtót, kizárva ezzel a nyiláson át beszúrödö termeszetes világgosságot, innentől kezdve kizárólag a falra rögzített fáklyáktól remélhetsz valamennyi fényt. Ahogy szemed hozzászokik a homályhoz, látod, hogy az alagút észak felé indul. Nagyot sóhajtasz a dolog igazságtalansága felett, majd elindulsz  abba az irányba. Lapozz a 41-re")
 
 while True:
     if keyboard.is_pressed("enter"):
