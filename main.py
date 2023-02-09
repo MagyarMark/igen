@@ -37,11 +37,7 @@ while True:
         print(f"                                             41.")
         print(f"Az alagút, bár folyamatosan jobbra-balra kanyarog, nagyjából mégis tartja az északi irányt, végül élesen oldalra kanyarodik, és ekkor majdnem belefutsz egy fekete köpenybe öltözött alakba. Tört tart a kezébe, az arcán ülő tekintet rettegésről árulkodik! Rájössz hogy nem te vagy az egyetlen, akit most próbára tesznek és hogy mindketten ugyanazon Szobor után kutattok. A fickó rád veti magát nyilvánvaló hogy mielőbb végezni akar veled. Harcolnod kell!")
         print(f"Tolvaj Ügyesség 7     Életerő 6")
-        print(f"élet:")
-        elet = (print(random.randint(2, 12)))
-        print(f"sebzes:")
-        sebzes = print(random.randint(2, 12))
-        h1 = valami(f"Martin", 12 , 12)
+        h1 = valami(f"Martin", random.randint(1,6), random.randint(1,6))
         h2 = valami(f"Tolvaj",7,6)
         kor = 1
 
@@ -58,3 +54,4 @@ while True:
         else:
             print(f"Nyertes: {h1}")
         break
+print("ahhoz, hogy tovább menj nyomd meg az ENTER-T")
