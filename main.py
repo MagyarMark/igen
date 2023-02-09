@@ -54,4 +54,3 @@ while True:
         else:
             print(f"Nyertes: {h1}")
         break
-print("ahhoz, hogy tovább menj nyomd meg az ENTER-T")
