@@ -29,6 +29,7 @@ class valami:
 
 print(f"                                            1.")
 print(f"Belöknek a lenti alagútba, és rád zárják az ajtót, kizárva ezzel a nyiláson át beszúrödö termeszetes világgosságot, innentől kezdve kizárólag a falra rögzített fáklyáktól remélhetsz valamennyi fényt. Ahogy szemed hozzászokik a homályhoz, látod, hogy az alagút észak felé indul. Nagyot sóhajtasz a dolog igazságtalansága felett, majd elindulsz  abba az irányba. Lapozz a 41-re")
+print(f" ")
 print(f"ahhoz, hogy tovább menj nyomd meg az ENTER-t")
 
 while True:
@@ -53,8 +54,8 @@ while True:
             print(f"Nyertes: {h2}")
         else:
             print(f"Nyertes: {h1}")
-        print(f"Ha győztál menj tovább a 85. mezőre")
-        print("Ha tovább akarsz menni, nyomd meg az SPACE-t")
+        print(f" ")
+        print(f"Ha győztál és tovább akarsz menni a 85. mezőre akkor nyomd meg a SPACE-t")
         break
     
 while True:    
@@ -62,9 +63,28 @@ while True:
         print(f" ")
         print(f"                                             85.")
         print(f"A Tolvajnál mindössze 3 aranytallért és egy háromszög alakú penészes gyümölcsöt találsz. Még soha nem láttál ehez hasonlót de gyanítod hogy ez lehet a Xentos a hosszú élet gyümölcse. Ha nem lenne ilyen borzalmas állapotba gond nélkül megkockáztatnád hogy belekóstólj így azomban úgy döntesz hogy itt hagyod és folytatod az utad észak felé. Hammarosan egy útelágazáshoz érsz, Ha továbrais északnak tartasz lapozz a 108-ra. Ha a nyugati irányba leágazó új parton mennél tovább lapozz a 147-re.")
+        print(f" ")
         print(f"Ha 108-ra akarsz menni nyomd meg az ENTER-t")
         break
 while True:
     if keyboard.is_pressed("enter"):
-        print(f"SIKERÜLT")
+        print(f" ")
+        print(f"                                             108.")
+        print(f"Északi irányba követed az átjárót. Hamarosan elérsz egy keleti elágazáshoz. Hogyha egyenesen mész tovább lapozz a 146-ra Ha letérsz jobbra lapozz a 79-re.")
+        print(f" ")
+        print(f"Ha a 146-ra akarsz menni nyomd meg a SPACE-t")
+        break
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                             146.")
+        print(f"Hamarosan egy ajtóhoz érsz ami a nyugati falból nyílik. Ahogy végig húzod a kezed rajta a kezed a kilincset keresve egy keresztet sikerül kitapintatod rajta amit nem túl mélyen véstek bele. Ha kiakarod nyitni az ajtós lapozz sz 51-re. Ha folytatnád az utad észak felé lapozz a 80-ra")
+        print(f" ")
+        print(f"ha az 51-re akarsz lépni nyomd meg az ENTER-t")
+        break
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                             51.")
+        print(f"")
         break
