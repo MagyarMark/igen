@@ -53,4 +53,18 @@ while True:
             print(f"Nyertes: {h2}")
         else:
             print(f"Nyertes: {h1}")
+        print(f"Ha győztál menj tovább a 85. mezőre")
+        print("Ha tovább akarsz menni, nyomd meg az SPACE-t")
+        break
+    
+while True:    
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                             85.")
+        print(f"A Tolvajnál mindössze 3 aranytallért és egy háromszög alakú penészes gyümölcsöt találsz. Még soha nem láttál ehez hasonlót de gyanítod hogy ez lehet a Xentos a hosszú élet gyümölcse. Ha nem lenne ilyen borzalmas állapotba gond nélkül megkockáztatnád hogy belekóstólj így azomban úgy döntesz hogy itt hagyod és folytatod az utad észak felé. Hammarosan egy útelágazáshoz érsz, Ha továbrais északnak tartasz lapozz a 108-ra. Ha a nyugati irányba leágazó új parton mennél tovább lapozz a 147-re.")
+        print(f"Ha 108-ra akarsz menni nyomd meg az ENTER-t")
+        break
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f"SIKERÜLT")
         break
