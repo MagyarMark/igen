@@ -86,5 +86,13 @@ while True:
     if keyboard.is_pressed("enter"):
         print(f" ")
         print(f"                                             51.")
+        print(f"Egy kis helyiségbe nyitsz be, mely az első ránézésre nem tartalmaz semmi mást, csak nagy halom tőrmeléket a padlón. Ahogy beljebb lépsz, kellemetlen szag csapja meg az orrodat, és egy éles, magas és - amennyire meg tudod állapítani - dühődt visítás kezd egyre erősödni. Végül egy rikoltás kiséretében két hatalmas Denevér ereszti el a plafont a szoba két sarkában, és feléd kezdenek repülni. Ahogy ösztönösen lebuksz, sekrült észrevenned a lények vicsorgó agyarait, melyek készek szétcincálni a torkodat.Ha gyorsan kihátrálsz, majd becsapod magad mögött a bejárati ajtót, lapozz a 80-ra.Hogyha megveted a lábad és megküzdesz ezekkel a szörnyű teremtményekkel, lapozz a 140-re.")
+        print(f"ha a 140-re akarsz lépni nyomd meg az SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                             140.")
         print(f"")
         break
