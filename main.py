@@ -201,5 +201,42 @@ while True:
     if keyboard.is_pressed("enter"):
         print(f" ")
         print(f"                                            153.")
-        print(f"")
+        print(f"A járat szélesedni kezd, repedések és hasadékok jelennek meg a falakon. Zörgő hang szűrődik ki valahonnan, és az egyik lyukból két különös teremtmény ugrik elő. Az egyértelműen látszik, hogy az alvilág lakói, mivel bőrük teljesen fehér, vad szemeik pedig rózsaszínüek. Fejüktől a farkukig hosszú, veszedelmes tüskék borítják hátukat,melyek járás közben jobbra-balra inganak. A lények hátat fordítanak neked, és már kezdesz megörülni, hogy megijedtek tőled és elmenekülnek. Mekkorát tévedtél! Ezek mérges Sündisznók, és épp arra készülnek. hogy halálos tüskéket beléd Köpjék. Egymás után küzdj meg velük.")
+        print(f"Első sündisznó: Ügyesség 7 ÉLETRŐ 5")
+        print(f"Második sündisznó: ÜGYESSEG 8 ÉLETERŐ 5")
+        h1 = valami(f"Kalandor", random.randint(2,12), random.randint(2,12))
+        h2 = valami(f"Sündisznó 1",7,5)
+        kor = 1
+
+        while not h1.harcol(h2):
+            print(f"{kor}. kör")
+            print(h1)
+            print(h2)
+            kor += 1
+
+        if h1.getHp()<1 and h2.getHp()<1:
+            print("Mindketten vesztettek")
+        elif h1.getHp()<1:
+            print(f"Nyertes: {h2}")
+        else:
+            print(f"Nyertes: {h1}")
+        print(f" ")
+        h3 = valami(f"Kalandor", random.randint(2,12), random.randint(2,12))
+        h4 = valami(f"Sündisznó 2",8,5)
+        kor = 1
+
+        while not h3.harcol(h4):
+            print(f"{kor}. kör")
+            print(h3)
+            print(h4)
+            kor += 1
+
+        if h3.getHp()<1 and h4.getHp()<1:
+            print("Mindketten vesztettek")
+        elif h3.getHp()<1:
+            print(f"Nyertes: {h4}")
+        else:
+            print(f"Nyertes: {h3}")
+        print(f"Mivel a tüskék nagyon mérgezőek, valahányszor beléd áll valamelyik, a szokásos 2 helyett 3 ÉLETERŐ pontot kell levonnod magadtól. Lapozz a 42-re.")
+        print(f"Ha a 42-re akarsz menni akkor nyomd meg a SPACE-t")
         break
