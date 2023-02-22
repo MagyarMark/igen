@@ -137,5 +137,5 @@ while True:
     if keyboard.is_pressed("enter"):
         print(f" ")
         print(f"                                             160.")
-        print(f"")
+        print(f"Lenézel ellenfeleid elernyedt tetemeire. Holtukban még ocsmányabbak, mert a vicsorgás gonosz pofájukra fagyott. A törmelékek között első ránézésre nem sok érdekes dolgot találsz. Ha alaposabban is át akarod vizsgálni, lapozz a 37-re. Ha inkább távoznál, és észak felé folytatnád az utad, lapozz a 80-ra.")
 
