@@ -294,5 +294,45 @@ while True:
         print(f" ")
         print(f"                                            6.")
         print(f"Az ajtó egy nyugat felé haladó alagútba nyílik. Követed, amíg egy elágazáshoz nem érsz. Ha észak felé akarsz fordulni, lapozz a 172-re. Ha nem akarsz letérni ebből a járatból, lapozz a 168-ra.")
-        print(f"Ha tovább akarsz menni a -ra akkor nyomd meg az ENTER-t")
+        print(f"Ha tovább akarsz menni a 172-re akkor nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                            172.")
+        print(f"A folyosó gyorsan szélesedik, végül egy kisebb szoba méreteit őlti magára. Nam messze tőled ismét összeszűkül, és újra egyszerű járatként folytatja életét. A padló közepén egy sekély aknát látsz, Ha gyorsan átgázolsz rajta, hogy a túloldalon folytathasd az utad, lapozz a 163-ra. Ha bele akarsz ugrani, lapozz a 185-re. Ha Visszatérnél az élőző alágazáshoz, és ott nyugati irányba mennél tovább, lapozza 168-ra.")
+        print(f"ha tovább akarsz menni a 163-ra akkor nyomd meg a SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                            163.")
+        print(f" Követed az alagutat, mely szinte azonnal egy újabb szobába torkollik. Ennek a padlója jóval lentebb áll, mint a bejárat, ahol most állsz, padlóját és kör alakú falát pedig elég magasan kőlapok borítják. Ezekre különös, egymásba fonódó mintákat festettek, melyek mintha valamilyen mágikus vagy misztikus jelentőséggel rendelkeznének. A helyiség színültig van telve kristálytiszta vízzel, és mivel eléggé mocskos vagy, meg meleged is van, nem tudsz ellenállni a kísértésnek. Levetkőzöl, és miután a biztonság kedvéért a fa ajtófélfába állítod a kardodat, elmerülsz a vízben. Miután percekig boldogan pancsolsz idelenn, és teljesen felfrissülsz, megfordulsz, hogy kimássz. Ekkor veszed észre a víz alatt lévő másik kijáratot. Lemerülsz, hogy alaposabban is szemügyre vedd. A kilincset nem tudod lenyomni, ami azért szerencse, mert ha leeresztenéd a vizet, akkor elég bajos lenne kijutnod a medencéből. Nem találsz itt semmi más érdekeset, igy felöltözöl és távozol. Visszatérsz a vermes ajtóhoz. Ha most le akarsz itt ugrani, lapozz a 185-re. Ha inkább visszatérnél a korábban látott elágazáshoz és nyugat felé folytatnád az utad, lapozz a 168-ra.")
+        print(f"Ha tovább akarsz menni a 185-re akkor nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                            185.")
+        print(f"Leugrasz a verembe, miután meggyőződtél róla, hogy ki fogsz tudni belőle mászni, ha ez szükségesnek bizonyulna. Mikor Körbenézel agy alacsony bejáratra bukkansz az egyik kinyuló szikladarad alatt. Szinte négykézlábra kell leereszkedned, hogy be tudi kukkantani rajta. Ha alaposabban is szét akarsz odaben nézni, úgy lapozz a 178-ra Ha inkább visszatérnél a szobába, lapozz 172-re válasz valami mást.")
+        print(f"Ha tovább akarsz menni a 178-ra akkor nyomd meg a SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                            178.")
+        print(f"Az alagút egyra alacsonyabb és szűkebbé válik, így nehéz nem észrevenni az itt heverő kis, kék folyadikan tartalmazó üvegcsét vege Lapozz  34-re.")
+        print(f"Ha tovább akarsz menni a 34-re akkor nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                            34.")
+        print(f"A fiola erős mentaillatot áraszt magából. Ha meg akarod inni, lapozz a 102-re. Ha inkább hagyod, ahol van. lapozz a 169-re.")
+        print(f"Ha tovább akarsz menni a 102-re akkor nyomd meg a SPACE-t")
         break
