@@ -336,3 +336,26 @@ while True:
         print(f"A fiola erős mentaillatot áraszt magából. Ha meg akarod inni, lapozz a 102-re. Ha inkább hagyod, ahol van. lapozz a 169-re.")
         print(f"Ha tovább akarsz menni a 102-re akkor nyomd meg a SPACE-t")
         break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                            102.")
+        print(f"Miután felhajtod az üvegecsében lévő italt, megdöbbenve tapasztalod, mennyivel jobban érzed most magad. Az üvegben a Szerencse Italának egy adagja volt. Növeld meg 1-el Kezdeti szerencsédet, majd állítsd vissza jelenlegi pontjaidat erre az új értékre. Folytatod a kúszást észak felé. Lapozz a 169-re")
+        print(f"Ha tovább akarsz menni a 169-re nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                            169.")
+        print(f"A folyosó végén egy kicsíny ajtót  találsz Ahogy figyelsz, különös, csobogó hangot hallasz átszűrődni rajta. Érintésedre különösen  hűvösnek tűnik az anyaga. Ha ki akarod nyitni, lapozz a 164-re. Ha inkább hagyod, ahol van, lapozz vissza a 172-re és válassz valami mást")
+        print(f"Ha tovább akarsz menni a 164-re nyomd meg a SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                            164.")
+        print(f"Ahogy lenyomod a kilincset, az ajtó kicsapódik, mintha valami hatalmas súly nyomná ki a túloldalon. Azonnal rájössz, hogy nagy hibát vétettél, mikor vizsugarak kezdenek el kispriccelni az apró réseken. Kétségbeesetten próbálod újra bezárni a kitörni készülő víztömeget ám hamar rájössz, hogy erre semmi esélyed, igy más választásod nem lévén menekülni próbálsz. Az ajtó kicsapódik, a szűk járatban pedig esélyed sincs rá, hogy túléld a dolgot. A víz teljes tömege rád zúdul, te pedig azon nyomban megfulladsz. Kalandod itt véget ér.")
+        break
