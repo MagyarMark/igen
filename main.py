@@ -94,5 +94,8 @@ while True:
     if keyboard.is_pressed("space"):
         print(f" ")
         print(f"                                             140.")
-        print(f"")
+        print(f"Felkészülsz az ütközetre miközben a két denevér zuhanórepülésbe közelít feléd. Hogyan is remélheted hogy kardoddal képes leszel felvenni velük a harcot? Meg kell próblnod a szoba egy másik részébe csalogatnod őket Hogyha pajzsod a levegőbe hajítanád talán azt hinnék hogy ez egy másik áldozat. Bármit is teszel egyesével kell megküzdened velük.")
+        print(f"Elsődenevér: (Ügyesség 5 életerő 7) Második denevér: (ügyesség 6 életerő 6)")
+        print(f"Ha nyersz lapozz a 160 ra. Ha akarsz az első kör után 80-ra lapozva az ajtón át elmenekülhetsz északfelé.")
         break
+
