@@ -196,3 +196,10 @@ while True:
         print(f"Nyugati irányba mész, le egy lejtős járaton míg el nem érsz egy újabb elágazást. Úgy gondolod, a déli út visszafelé vezetne, igy észak felé indulsz, Lapozz a 153-ra.")
         print(f"Ha a 153-ra akarsz menni nyomd meg az ENTER-t")
         break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                            153.")
+        print(f"")
+        break
