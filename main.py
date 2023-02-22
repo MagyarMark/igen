@@ -96,6 +96,38 @@ while True:
         print(f"                                             140.")
         print(f"Felkészülsz az ütközetre miközben a két denevér zuhanórepülésbe közelít feléd. Hogyan is remélheted hogy kardoddal képes leszel felvenni velük a harcot? Meg kell próblnod a szoba egy másik részébe csalogatnod őket Hogyha pajzsod a levegőbe hajítanád talán azt hinnék hogy ez egy másik áldozat. Bármit is teszel egyesével kell megküzdened velük.")
         print(f"Elsődenevér: (Ügyesség 5 életerő 7) Második denevér: (ügyesség 6 életerő 6)")
+        h1 = valami(f"Kalandor Sanyi", random.randint(2,12), random.randint(2,12))
+        h2 = valami(f"Denevér 1",5,7)
+        kor = 1
+
+        while not h1.harcol(h2):
+            print(f"{kor}. kör")
+            print(h1)
+            print(h2)
+            kor += 1
+
+        if h1.getHp()<1 and h2.getHp()<1:
+            print("Mindketten vesztettek")
+        elif h1.getHp()<1:
+            print(f"Nyertes: {h2}")
+        else:
+            print(f"Nyertes: {h1}")
+        h1 = valami(f"Martin", random.randint(2,12), random.randint(2,12))
+        h2 = valami(f"Denevér 2",6,6)
+        kor = 1
+
+        while not h1.harcol(h2):
+            print(f"{kor}. kör")
+            print(h1)
+            print(h2)
+            kor += 1
+
+        if h1.getHp()<1 and h2.getHp()<1:
+            print("Mindketten vesztettek")
+        elif h1.getHp()<1:
+            print(f"Nyertes: {h2}")
+        else:
+            print(f"Nyertes: {h1}")
         print(f"Ha nyersz lapozz a 160 ra. Ha akarsz az első kör után 80-ra lapozva az ajtón át elmenekülhetsz északfelé.")
         break
 
