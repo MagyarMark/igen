@@ -188,3 +188,10 @@ while True:
         print(f"Rájössz, hogy nincs rá mód, hogy lejuss innen, így visszatérsz az elágazáshoz. Lapozza 95-re.")
         print(f"Ha a 95-re akarsz menni nyomd meg a SPACE-t")
         break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                             95.")
+        print(f"")
+        break
