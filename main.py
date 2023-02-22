@@ -138,4 +138,53 @@ while True:
         print(f" ")
         print(f"                                             160.")
         print(f"Lenézel ellenfeleid elernyedt tetemeire. Holtukban még ocsmányabbak, mert a vicsorgás gonosz pofájukra fagyott. A törmelékek között első ránézésre nem sok érdekes dolgot találsz. Ha alaposabban is át akarod vizsgálni, lapozz a 37-re. Ha inkább távoznál, és észak felé folytatnád az utad, lapozz a 80-ra.")
+        print(f"Ha a 37-re akarsz menni nyomd meg a SPACE-t")
+        break
 
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                             37.")
+        print(f"A törmelékek közt kutatva belerúgsz valami fémes dologba. Miután eltakarítottad a környékéről a szemetet, egy masszív csapóajtó körvonalai rajzolódnak ki előtted a padlóban. Nem tudod megállapítani, hogy túl rozsdás-e ahhoz, hogy fel lehessen nyitni, te mindenesetre megpróbálod. Tedd próbára szerencséd! Ha szerencsés vagy, lapozz a 199-re. Hogyha nincs szerencséd, lapozz a 130-ra.")
+        print(f"Ha a 199-re akarsz lapozni akkor nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                             199.")
+        print(f"A csapóajtó eléggé megszorult, végül azon ban sikerül kinyitnod. Alatta egy kis üreget találsz abban peddig három tárgyat egy gyürüt, egy kis fiolányi folyadékot és egy összehajtogathatogatott köpenyt. Ha fel akarod próbálni a gyürüt, lapozz a 119-re. Hogyha fel szeretnéd venni a  köpenyt, lapozz a 12-re Amennyiben felhajtanad a folyadékot, lapozz a 71-re. Ha mindezeket a hasznos tár gyakat a követsző utazónak hagynád hátra. Bezárnád a csapóajtót és az ajton kilépve észak felé távoznál lapozz a 80-ra")
+        print(f"Ha a 80-ra akarsz menni nyomd meg a SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                             80.")
+        print(f"Észak felé haladsz. Megszenvedsz az úttal, hisz eléggé hepehupás. Hamarosan elérsz egy elágazáshoz. A nyugat felé tovább induló szakasz még rosszabb állapotúnak tűnik, mint az, ahol most jársz, ezért úgy döntesz továbbra is tartod az irányt. Lapozza 89-re")
+        print(f"Ha a 89-re akarsz menni nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                             89.")
+        print(f"A járat meredeken emelkedik, te pedig gyorsan fáradni kezdesz. Figyelmed ellankad, és nem veszed észre a padlóban lévő meglazult kődarabot. Megbotlasz és elesel. közben pajzsod a fal egyik repedésébe ékelődik. Miközben próbálod kiszabadítani, elferdül. Sérült pajzsod miatt a soron követ kez csatákban 2-vel csökkentened kell majd Támadóerődet, Morogva mész tovább, mig végül egy újabb elágazáshoz nem érsz. Hogyha a nyugati ágon folytatnád az utad. lapozz a 95-ru. Ha egyenesen mész tovább, lapozz a 127-re.")
+        print(f"Ha 127-re akarsz menni nyomd meg a SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                             127.")
+        print(f"A járat fokozatosan kiszélesedik, és hamarosan egy sziklapárkányra érsz, ami kelet- nyugati irányban fut végig egy magas sziklafal közepén. Tiszta szerencse, hogy nem siettél nagyon, különben most egyenesen a szakadékba zuhantál volna. Hasra fekszel a párkányon és letekintesz a szélén. Messze alattad egy kis hidat látsz, ami sebesen folyó patak felett ível át. Elhátrálsz a széléről. Felnézel, de semmit nem látsz, csak a sötétséget. Nem látod, hogyan tudnál leereszkedni a völgy fenekére, a perem pedig nem messze semmivé keskenyedik mindkét oldalon. Ha nálad van a Lebegés Köpenye lapozz a 23-ra. Ha nincs, lapozz a 62-re.")
+        print(f"Ha a 62-re akarsz menni nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                             62.")
+        print(f"Rájössz, hogy nincs rá mód, hogy lejuss innen, így visszatérsz az elágazáshoz. Lapozza 95-re.")
+        print(f"Ha a 95-re akarsz menni nyomd meg a SPACE-t")
+        break
