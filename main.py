@@ -112,22 +112,22 @@ while True:
             print(f"Nyertes: {h2}")
         else:
             print(f"Nyertes: {h1}")
-        h1 = valami(f"Martin", random.randint(2,12), random.randint(2,12))
-        h2 = valami(f"Denevér 2",6,6)
+        h3 = valami(f"Martin", random.randint(2,12), random.randint(2,12))
+        h4 = valami(f"Denevér 2",6,6)
         kor = 1
 
-        while not h1.harcol(h2):
+        while not h3.harcol(h4):
             print(f"{kor}. kör")
-            print(h1)
-            print(h2)
+            print(h3)
+            print(h4)
             kor += 1
 
-        if h1.getHp()<1 and h2.getHp()<1:
+        if h3.getHp()<1 and h4.getHp()<1:
             print("Mindketten vesztettek")
-        elif h1.getHp()<1:
-            print(f"Nyertes: {h2}")
+        elif h3.getHp()<1:
+            print(f"Nyertes: {h4}")
         else:
-            print(f"Nyertes: {h1}")
+            print(f"Nyertes: {h3}")
         print(f"Ha nyersz lapozz a 160 ra. Ha akarsz az első kör után 80-ra lapozva az ajtón át elmenekülhetsz északfelé.")
         break
 
