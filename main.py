@@ -240,3 +240,59 @@ while True:
         print(f"Mivel a tüskék nagyon mérgezőek, valahányszor beléd áll valamelyik, a szokásos 2 helyett 3 ÉLETERŐ pontot kell levonnod magadtól. Lapozz a 42-re.")
         print(f"Ha a 42-re akarsz menni akkor nyomd meg a SPACE-t")
         break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                            42.")
+        print(f"A járat tovább szélesedik, végül egy hatalmas barlangüregben találod magad. Mindkét oldaladnál sztalagmitok és sztalaktitok meredeznek. Néhányuk hatalmas kőoszloppá nőtt össze az idők folyamán, melyek mögött kimondhatatlan borzalmak lapulhatnak. Érzed, hogy a barlangban folyamatosan mozog a levegő, és rájössz, hogy ennek oka egy gyors folyású, igen veszedelmesnek tűnő folyó. Feltekintve szemeid követik a cseppkőoszlopok vonalait, egészen addig, míg el nem tűnnek a plafont elrejtő végtelen sötétségben. Valahol a folyó mentén egy kis, nem túl bizalomgerjesztő híd körvonalát sikerül kivenni. Lapozz a 27-re.")
+        print(f"ha a 27-re akarsz menni nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                            27.")
+        print(f"Egy hatalmas völgy lábánál állsz, melyet egy gyors folyású folyó vájt ki. Próbálsz valami megoldást találni az átkelésre, de csak egy kicsi, eléggé rozoga és korhadt hidat látsz. Ahogy megközelíted, látod. amint két óriási termesz eszi a fát. Hófehér testükön igen nyugtalanítóan hat két vérvörös szemük. A lények bármelyike bármikor beléd marhatna. Ha sietsz talán még sikerül átkelned rajta azelőtt, hogy végleg összeroskadna. A másik lehetőséged, hogy megpróbálsz átúszni a sebes folyón. Ha az első megoldást választod, lapozz a 40-re. Ha úgy gondolod, elég jó úszó vagy. ezzel próbálkoznál, lapozz a 2-re.")
+        print(f"ha a 40-re akarsz menni nyomd meg a SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                            40.")
+        print(f"Miközben a termeszektől nyüzsgő építményen haladsz, az baljósan recseg-ropog a talpad alatt. Minden egyes lépéssel újabb darabjai esnek bele a vízbe. Végül már csak egyetlen kötél marad épen, ami az utolsó deszkadarabot tartja. Tedd próbára SZERENCSÉD! Ha szerencsés vagy, lapozz a 60-ra. Ha nem, lapozz a 75-re.")
+        print(f"ha a 60-ra akarsz menni nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                            60.")
+        print(f"A híd épp elég ideig marad épen ahhoz. hogy átérj a túloldalra. Ahogy lelépsz róla, Összeomlik. Lapozz a 76-ra")
+        print(f"Ha tovább akarsz menni a 76-ra nyomd meg a SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                            76.")
+        print(f"Homokos parton találod magad, melynek félhold alakja van. Az előtted lévő sziklafal egy kis alkóvot alkot, és három ajtót foglal magában. Ezek közül választhatsz majd, mikor eljön a távozás ideje, előtte azonban még el kell döntened, át akarod-e kutatni a folyópartot ékkövek vagy aranyérmék után. Hogyha az északi ajtón át távoznál, lapozz a 87-re. Ha a nyugatin lépnél be, lapozz a 6-ra. Ha a keletivel próbálnál szerencsét, lapozz a 111-re. Ha előbb átkutatnád a partot, lapozz az 53-ra.")
+        print(f"Ha tovább akarsz menni az 53-ra akkor nyomd meg az ENTER-t")
+        break
+
+while True:
+    if keyboard.is_pressed("enter"):
+        print(f" ")
+        print(f"                                            53.")
+        print(f"A part teljesen kihaltnak tűnik, te pedig eléggé óvatlanul járkálsz, így a homokban bujkáló apró, bíbor rák minden gond nélkül csíp bele a lábadba. Vesztesz 2 ÉLETERŐ pontot. A három ajtó bármelyikén át távozhatsz. Ha az északi ajtón át távoznál, lapozz a 87-re. Ha a nyugatin lépnél be, lapozza 6-ra. Ha a keletivel próbálnál szerencsét, lapozz a 111-re")
+        print(f"Ha tovább akarsz menni a 6-ra akkor nyomd meg a SPACE-t")
+        break
+
+while True:
+    if keyboard.is_pressed("space"):
+        print(f" ")
+        print(f"                                            6.")
+        print(f"Az ajtó egy nyugat felé haladó alagútba nyílik. Követed, amíg egy elágazáshoz nem érsz. Ha észak felé akarsz fordulni, lapozz a 172-re. Ha nem akarsz letérni ebből a járatból, lapozz a 168-ra.")
+        print(f"Ha tovább akarsz menni a -ra akkor nyomd meg az ENTER-t")
+        break
