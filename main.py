@@ -95,7 +95,7 @@ while True:
         print(f"                                             140.")
         print(f"Felkészülsz az ütközetre miközben a két denevér zuhanórepülésbe közelít feléd. Hogyan is remélheted hogy kardoddal képes leszel felvenni velük a harcot? Meg kell próblnod a szoba egy másik részébe csalogatnod őket Hogyha pajzsod a levegőbe hajítanád talán azt hinnék hogy ez egy másik áldozat. Bármit is teszel egyesével kell megküzdened velük.")
         print(f"Elsődenevér: (Ügyesség 5 életerő 7) Második denevér: (ügyesség 6 életerő 6)")
-        h1 = valami(f"Kalandor", random.randint(2,12), random.randint(2,12))
+        h1 = valami(f"Kalandor", random.randint(2,12),)
         h2 = valami(f"Denevér 1",5,7)
         kor = 1
 
